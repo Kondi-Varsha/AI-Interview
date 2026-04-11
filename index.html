@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Interview</title>
+    <script
+      src="https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js"
+      defer
+      async
+    ></script>
+  </head>
+  <body>
+    <h2>AI Interview</h2>
+    <p>Click the button below to start your interview.</p>
+    <p>Please allow microphone access when asked.</p>
+
+    <script>
+      window.addEventListener('load', () => {
+        window.vapiSDK.run({
+          apiKey: "82f5ba29-629f-41e0-841a-7f11c9f37b47",
+          assistant: "b4dd798d-992b-42c6-b716-cd9df674a9af",
+          config: {
+            position: "bottom-right"
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
